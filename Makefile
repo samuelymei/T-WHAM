@@ -1,4 +1,5 @@
-.SUFFIXES: .f90
+.SUFFIXES: 
+.SUFFIXES: .f90 .o
 
 FC = ifort
 FFLAGS = -CB

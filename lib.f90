@@ -29,7 +29,7 @@ function rmsd(n,a1,a2)
   real(kind=fp_kind) :: rmsd
   integer(kind=4) :: i
   if(n==0)then
-    rmsd = 0 
+    rmsd = 0.d0
     return
   end if
   rmsd = 0.d0
