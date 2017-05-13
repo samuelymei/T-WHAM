@@ -132,6 +132,7 @@ contains
     use precision_m
     use constant
     implicit none
+    pmf=0.0d0
     do IndexR = 1, NumR
       do IndexS = 1, NumS
         pmf(iRCbin_nk(IndexS,IndexR)) = pmf(iRCbin_nk(IndexS,IndexR)) + weight_nk(IndexS,IndexR)
